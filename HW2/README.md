@@ -5,6 +5,7 @@ The goal of this homework is to develop a method to predict the electricity usag
 1. Weather: Weather data for one year with daily weather conditions
 2. Energy Usage: Energy usage history for one year (in kW) with 30-minute intervals. The
 energy usage of specific devices like AC, Fridge, washer, etc. are also given.
+
 You will need to submit your code (programs/source files) in three different formats (.ipynb, .pdf and .py). Make sure that you properly document your program (code) with proper comments highlighting the exact sequence of operations which are required to arrive at the resulting tables and figures. The submission instructions are provided at the end of the assignment.
 
 ### Tasks
@@ -12,7 +13,7 @@ You will need to submit your code (programs/source files) in three different for
 (Use [kW]) to get per day usage and merge it with weather data (10 Points).
 2. Split the data obtained from step 1, into training and testing sets. The aim is to predict the usage for each day in the month of December using the weather data, so split accordingly. The usage as per devices should be dropped, only the “use [kW]” column is to be used for prediction from the dataset (5 points).
 3. Linear Regression - Predicting Energy Usage:
-Set up a simple linear regression model to train, and then predict energy usage for each day in the month of December using features from weather data (Note that you need to drop the “use [kW]” column in the test set first). How well/badly does the model work? (Evaluate the correctness of your predictions based on the original “use [kW]” column). Calculate the Root mean squared error of your model.
+4. Set up a simple linear regression model to train, and then predict energy usage for each day in the month of December using features from weather data (Note that you need to drop the “use [kW]” column in the test set first). How well/badly does the model work? (Evaluate the correctness of your predictions based on the original “use [kW]” column). Calculate the Root mean squared error of your model.
 Finally generate a csv dump of the predicted values. Format of csv: Two columns, first should be the date and second should be the predicted value. (20 points)
 4. Logistic Regression - Temperature classification:
 Using only weather data we want to classify if the temperature is high or low. Let's assume temperature greater than or equal to 35 is ‘high’ and below 35 is ‘low’. Set up a logistic regression model to classify the temperature for each day in the month of December. Calculate the F1 score for the model.

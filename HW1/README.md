@@ -6,12 +6,12 @@ The assignment is based on New York City Airbnb Open Data [2]. The main task is 
 ### Tasks
 1. Examine the data, there may be some anomalies in the data, and you will have to clean the data before you move forward to other tasks. Explain what you did to clean the data. (10 Points)
 2. Examine how the prices of the Airbnb changes with the change in the neighborhood.
-  a. Find Top 5 and Bottom 5 neighborhood based on the price of the Airbnb in that neighborhood (select only neighborhoods with more than 5 listings). (10 Points)
-  b. Analyze, the price variation between different neighborhood group, and plot these trends. (5 Points)
+    1. Find Top 5 and Bottom 5 neighborhood based on the price of the Airbnb in that neighborhood (select only neighborhoods with more than 5 listings). (10 Points)
+    2. Analyze, the price variation between different neighborhood group, and plot these trends. (5 Points)
 3. Select a set of the most interesting features. Do a pairwise Pearson correlation analysis on all pairs of these variables. Show the result with a heat map and find out most positive and negative correlations. (5 points)
 4. The Latitude and Longitude of all the Airbnb listings are provided in the dataset.
-   a. Plot a scatter plot based on these coordinates, where the points represent the location of an Airbnb, and the points are color coded based on the neighborhood group feature. (5 Points)
-   b. Now again, plot a scatter plot based on these coordinates, where the points represent the location of an Airbnb, and the points are color coded based on the price of the particular Airbnb, where price of the listing is less than 1000. Looking at the graph can you tell which neighborhood group is the most expensive. (5 Points)
+   1. Plot a scatter plot based on these coordinates, where the points represent the location of an Airbnb, and the points are color coded based on the neighborhood group feature. (5 Points)
+   2. Now again, plot a scatter plot based on these coordinates, where the points represent the location of an Airbnb, and the points are color coded based on the price of the particular Airbnb, where price of the listing is less than 1000. Looking at the graph can you tell which neighborhood group is the most expensive. (5 Points)
 5. Word clouds are useful tool to explore the text data. Extract the words from the name of the Airbnb
 and generate a word cloud. (5 Points)
 6. Find out which areas has the busiest (hosts with high number of listings) host? Are there any reasons, why these hosts are the busiest, considers factors such as availability, price, review, etc.? Bolster you reasoning with different plots and correlations. (10 Points)

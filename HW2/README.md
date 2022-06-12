@@ -24,8 +24,8 @@ We want to analyze how different devices are being used in different times of th
 - During what time of the day is AC used most?<br />
 There are a number of questions that can be asked.<br />
 For simplicity, let’s divide a day in two parts:<br />
-- Day: 6AM - 7PM
-- Night: 7PM - 6AM
+  - Day: 6AM - 7PM
+  - Night: 7PM - 6AM <br />
 Analyze the usage of any two devices of your choice during the ‘day’ and ‘night’. Plot these trends. Explain your findings. (10 points)
 6. Visual Appeal and Layout - For all the tasks above, please include an explanation wherever asked and make sure that your procedure is documented (suitable comments) as good as you can.<br />
 Don’t forget to label all plots and include legends wherever necessary as this is key to making good visualizations! Ensure that the plots are visible enough by playing with size parameters. Be sure to use appropriate color schemes wherever possible to maximize the ease of understandability. Everything must be laid out in a python notebook (.ipynb). (5 Point)
